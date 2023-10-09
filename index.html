@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="2.css">
+    <link rel="stylesheet" href="./asset/style.css">
+  </head>
+  <body>
+     
+<section class="container-fluid bg-dark " id="home" >
+    <div class="d-flex p-1">
+        <div class="col ">
+            <a class="text-white"  href="">CITIBANK INDIA</a>
+        </div>
+        <div class=" ml-auto ">
+            <a class="text-white " href="">Contact Us</a>
+        </div>
+    </div>
+</section>
+   <!-- nav logo-bar -->
+   <section class="container-fluid sec-nav" >
+    <div class="d-flex p-3">
+        <div class="col ">
+            <img class="navbar-brand" src="./images/citi_priority_logo.png" alt="">
+        </div>
+        <div class=" ml-auto ">
+            <img class="navbar-brand sml-hide" src="./images/search_icon_white.png" alt="">
+        </div>
+    </div>
+</section>
+
+<!-- nav-bar -->
+
+
+  <div class="menu-btn">
+    <img src="./images/open-menu.png" alt="">
+  </div>
+
+  <div class="nav">
+
+    <nav class="nav-1">
+      <div class="nav-2">
+        <ul class="main-menu mb-0 show" style="margin-top: 15px;padding: 25px 10px;">
+        <li><a href="#" >Simple Banking</a></li>
+        <li><a href="#" >Wealth Solutions</a></li>
+        <li><a href="#">Global Access</a></li>
+        <li><a href="#">Privileges and Offers</a></li>
+      </ul>
+     
+
+      
+    </div>
+    <div class="lft-nav " style="padding: 20px;">
+      <li class=""><a href="#">Log in</a></li>
+    </div>
+    </nav>
+    
+  </div>
+  <!-- banner -->
+  <div class="banner">
+    <div class="">
+       <img class="img-width" src="./images/contactusBannerMedium.jpg" alt="" />
+    </div>
+    <div id="banner-head-mob" class="banner-head">
+       <p id="txt-center-mob" class="txt-center">Connect With Us - Open Your Citi Priority Account</p>
+       <p id="banner-txt-mob" class="banner-txt">Your journey to wealth starts with just a simple conversation.</p>
+    </div>
+ </div>
+
+
+
+
+<div class="container-fluid text-center text-area main-2" >
+ 
+  <p>Enjoy world class wealth management services, 7.25% p.a. on FD and benefits up to Rs. 2,00,000+.
+  </p>
+ 
+</div>
+<div class="container-fluid text-center text-area2 main-3 ">
+ 
+  <p>World class wealth management services with Citi Priority Personal Banker</p>
+ 
+</div> 
+<!-- fomr -->
+
+<div class="container align-items-center">
+  
+  <div class="col10 col-md-10  offset-1">
+    <div class="row mb-5">
+      <h3 class="subHeading ">Please complete the form below and we'll be in touch
+        very soon.</h3>
+    </div>
+    
+    <form action="./thank-you.html" method="post" class="needs-validation" novalidate id="registrationForm">
+    <div class="row rspn">
+      <div class="col-md-4">
+        <input type="text" id="firstName" class="input" placeholder="First name" >
+        <div id="first-name-err"></div>
+      </div>
+      <div class="col-md-4">
+        <input type="text" id="lastName" class="input" placeholder="Last name" required>
+        <div id="last-name-err"></div>
+      </div>
+      <div class="col-md-4">
+        <select class="input"  id="select" required class="form-select" id="validationCustom03" >
+          <option value="" disabled selected>City</option>
+          <option value="Ahmedabad">Ahmedabad</option>
+          <option value="Aurangabad">Aurangabad</option>
+          <option value="Bengaluru">Bengaluru</option>
+          <option value="Chandigarh">Chandigarh</option>
+          <option value="Chennai">Chennai</option>
+          <option value="Coimbatore">Coimbatore</option>
+          <option value="Faridabad">Faridabad</option>
+          <option value="Gurgaon">Gurgaon</option>
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="Jaipur">Jaipur</option>
+          <option value="Kochi">Kochi</option>
+          <option value="Kolkata">Kolkata</option>
+          <option value="Lucknow">Lucknow</option>
+          <option value="Mumbai">Mumbai</option>
+          <option value="Nasik">Nasik</option>
+          <option value="Nagpur">Nagpur</option>
+          <option value="New Delhi">New Delhi</option>
+          <option value="Noida">Noida</option>
+          <option value="Pune">Pune</option>
+          <option value="Surat">Surat</option>
+          <option value="Thane">Thane</option>
+          <option value="Vadodara">Vadodara</option>
+          <option value="Vashi">Vashi</option>
+        </select>
+        <div class="invalid-feedback">
+          Please select a valid state.
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row mt-5 ml-2 rspn">
+      <div class="col-md-4 ">
+        <select class="input" class="form-select" id="validationCustom05"  placeholder="Salaried" required>
+          <option value="" disabled selected>Salaried</option>
+          <option value="Salaried">Salaried</option>
+          <option value="Self-Employed">Self-Employed</option>
+          <div class="error" id="salaryErr"></div>
+        </select>
+        <div class="invalid-feedback">
+          Please select your salary status 
+        </div>
+      </div>
+
+
+      <div class="col-md-4 ">
+        <select class="input" class="form-select" id="validationCustom06"  placeholder="Salaried" required>
+          <option value="" disabled selected>Annual Income INR</option>
+          <option value="15-25 Lacs">15-25 Lacs</option>
+      <option value="25-50 Lacs">25-50 Lacs</option>
+      <option value="50 Lacs and above">50 Lacs and above</option>
+
+          <div class="error" id="salaryErr"></div>
+        </select>
+        <div class="invalid-feedback">
+          Please select your salary range
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="col-12 mt-5">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+        </label>
+        <p  style="margin-top: -24px;"> I have read the <span class="blue">Terms and conditions</span>  and fully accept it.</p>
+        <div class="invalid-feedback">
+          You must agree before submitting.
+        </div>
+      </div>
+      <div class="disclimer">By clicking "Call me/ Submit/ Talk to us now" and
+        providing your personal data, you consent to Citibank N.A., India contacting
+        you to market Citibank products and services via telephone.</div>
+    </div>
+    <div class="col-12 mt-4">
+      <button href="./test.html" class="btn btn-primary submitclk" type="submit" >Generate OTP</button>
+      
+    </div>
+
+  </form>
+  <!-- content -->
+  <div class="col12 col-md-12 col-sm-12 ">
+    <p class="mt-5">Get a Complimentary Citi Rewards Credit Card when you start a
+      Citi Priority Relationship. <span class="blink"><a href="" target="_blank">*T&amp;C apply</a></span></p>
+      <p class="top40"><span class="inter"><strong>Disclaimer:</strong></span><br> You
+        are being re-directed out of Citigroup controlled environment to our partner website
+        phonon.in to process your request.</p>
+
+  </div>
+  <div class="col12 col-md-12 col-sm-12  commonStyle">
+    <p class=""><span class="inter">Please note:</span> The instant callback facility is
+      available only between 09:30 A.M. to 6:30 P.M. (Monday to Friday).</p>
+    <p>Net Relationship Value (NRV) needs to grow to a minimum of Rs.15 Lakhs for Savings
+      Account and Current Account over a period of 3 months.</p>
+    <p><a href="" target="_blank">Click here</a> to view Schedule of Charges for this account.
+    </p>
+    <p class="last">Citibank India does not market any product or service to individuals
+      resident in the European Union, European Economic Area, Switzerland, Guernsey,
+      Jersey, Monaco, San Marino, Vatican, UK and The Isle of Man. This webpage is not,
+      and should not be construed as, an offer, invitation or solicitation to buy or sell
+      any of the products and services mentioned herein to individuals resident in the
+      European Union, European Economic Area, Switzerland, Guernsey, Jersey, Monaco, San
+      Marino, Vatican, UK and The Isle of Man.</p>
+  </div>
+
+  <div id="back-top" class="mt-5" title="Back to top"><span><a class="btn-click" href="#home" title="Back to Top">Back to Top</a> </span></div>
+  </div>
+  </div>
+  
+   <!-- footer -->
+   <div class="footer">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-3 widget  px-5">
+                <img src="./images/citi.png" alt="" />
+            </div>
+     
+                <div class="col-md-9 d-flex justify-content-end ftr-1">
+                    <ul class="list-inline px-1">
+                        <li class="list-inline-item px-4 "><a><img src="./images/facebook.png" ></a></li>
+                        <li class="list-inline-item px-4  "><a href="" class=" mx-auto d-block rounded"><img src="./images/Instagram-icon.png" ></a></li>
+                        <li class="list-inline-item  "><a href=""><img src="./images/linked_in.png" ></a></li>
+                    </ul>
+                </div>
+      
+        </div>
+      
+        
+
+
+        <div class="row">
+            <div class="col-md-3 widget">
+                <h2 class="pt-3 " >Banking Information</h2>
+                <article class="widget_content">
+                    <ul>
+                        <li class="mt-3"><a href="#">Schedule of Charges</a></li>
+                        <li class="mt-3"><a href="#">Terms and Conditions</a></li>
+                    
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-3 widget">
+                <h2 class="pt-3">Support</h2>
+                <article class="widget_content">
+                    <ul>
+
+                        <li class="mt-3"><a href="#">Report Lost/Stolen Card</a></li>
+                       
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-3 widget">
+                <h2 class="pt-3">Contact Us</h2>
+                <article class="widget_content">
+                    <ul>
+                        <li class="mt-3"><a href="#">Branch and ATM Locator</a></li>
+                        <li class="mt-3"><a href="#">Hotline</a></li>
+                    </ul>
+                </article>
+            </div>
+            <div class="col-md-3 widget">
+                <h2 class="pt-3">Banking Types</h2>
+                <article class="widget_content">
+                    <ul>
+                        <li class="mt-3"><a href="#">Citigold Private Client</a></li>
+                        <li class="mt-3"><a href="#">Citigold</a></li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+
+        <div class="footer-link">
+            <ul id="mob-device">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Citigroup.com</a></li>
+            </ul>
+            <div class="fl-end pt-3">
+                <p class="pull-right">Citigroup.com is the global source of information and access to financial
+                    services provided by the Citigroup family of companies.<br> <span class="pull"
+                        style="margin-top: 10px;display: flex;justify-content: end;">© 2022 Citigroup Inc.</span>
+                </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $(".widget h2").click(
+            function () {
+                $(this).parent().toggleClass('active');
+            }
+        );
+    });
+</script>
+
+
+<script>
+    document.querySelector('.menu-btn').addEventListener('click', () => document.querySelector('.main-menu').classList.toggle('show'));
+  </script>
+
+<script>
+  
+(function () {
+'use strict'
+
+var forms = document.querySelectorAll('.needs-validation')
+
+
+Array.prototype.slice.call(forms)
+  .forEach(function (form) {
+    form.addEventListener('submit', function (event) {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+<script src="./asset/validation.js"></script>
+
+
+
+   
+  </body>
+</html>
